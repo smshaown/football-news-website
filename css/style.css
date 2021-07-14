@@ -137,10 +137,24 @@ article section
 /*---------
  video section
 ------------- */
-.vedio-area{
+#copa-veido{
+    width: 600px;
+}
+.video-area{
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+}
+.top-name h1 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 600;
+}
+.video-text h2 {
+    text-align: center;
+    margin: 20px;
+    color: darkslategray;
 }
 
 /* 

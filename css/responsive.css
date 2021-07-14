@@ -34,6 +34,16 @@
      .side-banner h2{
          font-size: 30px;
      }
+
+     /* Video section*/
+
+     #copa-veido{
+         width: 300px;
+         margin-left: 110px;
+     }
+
+
+
   /* teams section  */
     .team-area{
         margin-top: 40px;
