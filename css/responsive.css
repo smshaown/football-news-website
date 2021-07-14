@@ -1,0 +1,50 @@
+
+@media only screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+    .header-menu{
+        display: none;
+    }
+    .top-banner{
+        grid-template-columns: 1fr;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+    .half-width h1 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+ 
+    .half-width img {
+        margin-top: 50px;
+    }
+
+    /* players section  */
+    .players{
+           grid-template-columns: 1fr;
+     }
+     
+     /* sponsor section */
+
+     .sponsor{
+         max-width: 350px;
+     }
+     .sponsor img {
+         width: 100%;
+     }
+     /* ----------
+    article section start
+    ----------- */
+
+     .side-banner{
+         grid-template-columns: 1fr;
+     }
+     .side-banner h2 {
+       font-size: 30px;
+       padding-left: 5px;
+     }
+
+
+
+}
