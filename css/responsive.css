@@ -39,7 +39,11 @@
 
      #copa-veido{
          width: 300px;
-         margin-left: 110px;
+         margin-left: 23px;
+     }
+
+     .video-text h2 {
+         font-size: 1em;
      }
 
 
