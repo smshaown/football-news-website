@@ -157,10 +157,9 @@ article section
     color: darkslategray;
 }
 
-/* 
-/****************
+/*****************
 teams section 
-***************/ */
+*************** */
 .team-area{
     margin-top: 10px;
 }
@@ -176,9 +175,7 @@ teams section
     height: 220px;
 }
 
-/* -----------
-Footer Section 
------------*/
+
 
 /**************************
  footer section  
@@ -219,5 +216,6 @@ Footer Section
 .footer-area p{
     font-size: 18px;
 }
+
 
 
