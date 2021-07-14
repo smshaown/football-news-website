@@ -58,4 +58,42 @@
     .container{
         width: 95%;
     }
+    .header-area{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .half-width h1 {
+        font-size: 50px;
+    }
+    /* players section  */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+    }
+    .player .player-name{
+        font-size: 24px;
+    }
+
+    /* ----------
+    article section start
+    ----------- */
+    .side-banner{
+        margin-left: 5%;
+    }
+
+    .side-banner h2 {
+        font-size: 35px;
+    }
+
+    /* teams section  */
+    .team-area .teams{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 5%;
+    }
+    .team-area .team-title{
+        font-size: 37px;
+    }
+
+
 }
