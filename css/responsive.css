@@ -25,4 +25,37 @@
     .sponsor{
         display: none;
     }
+
+     /* highlights section  */
+
+     .side-banner{
+         grid-template-columns: 1fr;
+     }
+     .side-banner h2{
+         font-size: 30px;
+     }
+  /* teams section  */
+    .team-area{
+        margin-top: 40px;
+    }
+    .team-area .team-title{
+        font-size: 30px;
+    }
+    .team-area .teams{
+        padding-left: 25px;
+    }
+
+     /* footer section  */
+     .footer-area{
+        margin-top: 50px;
+    }
+    .footer-area .logo{
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .container{
+        width: 95%;
+    }
 }

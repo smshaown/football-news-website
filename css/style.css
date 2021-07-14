@@ -29,7 +29,12 @@ body{
 .header-area{
     background: #2D25A0;
     padding-top: 42px;
+    overflow: hidden;
 }
+
+/* .header-area */
+
+
 .header-menu{
     display: flex;
     justify-content: space-between;
@@ -58,6 +63,10 @@ body{
 
 .half-width img{
     width: 100%;
+}
+.half-width img:hover{
+    transform: scale(1.1) skew(2deg);
+    transition: transform 2s ease-in-out;
 }
 /*******************
  players section 
@@ -177,63 +186,65 @@ h5 {
 }
 
 
-
-/*--------------------
- Teams country section
- --------------------- */
-.teams-country{
+/****************
+teams section 
+***************/
+.team-area{
+    margin-top: 10px;
+}
+.team-area .team-title{
+    font-size: 50px;
+}
+.team-area .teams{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 195px;
-    padding-bottom: 100px;
-   
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
-.teams h2{
-    color: #332323;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
+.teams img{
+    width: 220px;
+    height: 220px;
 }
-
-.teams-country .team{
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.teams-country .team img {
-    width: 150px;
-    height: 150px;
-}
-
 
 /* -----------
 Footer Section 
 -----------*/
 
-
-.footer-info{
-    width: 548px;
-    height: 256px;
-    margin: 0 auto;
-}
-
-.footer-logo img{
-    width: 483px;
-    height: 110px;
-}
-
-.footer-icon img{
-    height: 32px;   
-    margin: 0px -152px 0px 171px;    
-}
-
-.footer-text p{
+/**************************
+ footer section  
+ ***********************/
+ .footer-area{
+    padding-bottom: 40px;
+    padding-top: 54px;
+    margin-top: 75px;
     text-align: center;
-    padding-top: 16px;
+    background: #f7f6ff;
 }
-
+.footer-area .logo{
+    height: 110px;
+    background: none;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-icons i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right:14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: #969BAB;
+}
+.social-icons i:hover{
+    cursor: pointer;
+    background: lightgray;
+}
+.footer-area p{
+    font-size: 18px;
+}
 
 
